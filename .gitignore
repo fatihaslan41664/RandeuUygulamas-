@@ -1,0 +1,30 @@
+# .gitignore dosyası oluştur
+echo "## Visual Studio" > .gitignore
+```
+
+**Tam .gitignore içeriği:**
+```
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio cache
+.vs/
+*.vsidx
+*.vspscc
+*.suo
+*.user
+*.sln.docstates
