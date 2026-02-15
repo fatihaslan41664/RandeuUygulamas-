@@ -28,3 +28,5 @@ x86/
 *.suo
 *.user
 *.sln.docstates
+
+echo "node_modules/" >> .gitignore
